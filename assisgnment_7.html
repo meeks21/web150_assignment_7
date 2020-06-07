@@ -3,15 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <title>Untitled Document</title>
+<link href="css/styles.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <label>Enter miles driven:</label>
-    <input type="text" name="milesDriven">
-    <label>Enter gallons of gas used</label>
-    <input type="text" name="gallonsUsed">
-    <label>Miles Per Gallon</label>
-    <input type="text" name="MPG">
-    <button type="button" id="calculate"></button>
-    <script src="js/styles.js"></script>
+    <h1>How many miles per gallon does your car use?</h1>
+    <form>
+        <label>Enter miles driven:</label><br>
+        <input type="text" name="milesDriven"><br>
+        <label>Enter gallons of gas used:</label><br>
+        <input type="text" name="gallonsUsed"><br>
+        <label>Miles Per Gallon</label><br>
+        <input type="text" name="MPG" class="lastInput"><br>
+        <button type="button" id="calculate">Calculate MPG</button>
+        <script src="js/scripts.js"></script>
+    </form>
 </body>
 </html>
